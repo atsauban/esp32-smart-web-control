@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32 Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ESP32 Web Control</h1>
+  <button onclick="toggle()">Toggle</button>
+
+  <script>
+    function toggle() {
+      fetch("/toggle");
+    }
+  </script>
+</body>
+</html>
