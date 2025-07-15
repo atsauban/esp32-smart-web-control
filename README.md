@@ -10,7 +10,7 @@ The HTML and CSS files are stored in the SPIFFS filesystem of the ESP32.
 - Easily extendable to sensors or other modules
 
 
-## 🛠 Requirements
+##  Requirements
 - Arduino IDE
 - ESP32 board with USB cable
 - Libraries:
